@@ -1,9 +1,12 @@
 ''' In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". '''
 
 
+import string
+
+
 def DNA_strand(dna):
     text2 = "" 
-    for symbol in symbols:
+    for symbol in dna:
         if(symbol == "A"):
             text2 += "T"
         if(symbol == "T"):
